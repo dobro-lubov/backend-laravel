@@ -1,9 +1,10 @@
 <?php
 
+
 class OrderService
 {
     /**
-     * Оформлят заказ и списывает деньги у пользователя
+     * Оформляем заказ и списываем деньги у пользователя
      * @param float $total
      */
     public function run(float $total): bool

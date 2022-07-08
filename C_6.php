@@ -1,5 +1,6 @@
 <?php
 
+
 interface StateStore
 {
     public function getState(string $id): ?string;

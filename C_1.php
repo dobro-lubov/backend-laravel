@@ -1,9 +1,11 @@
 <?php
 
 
-
 class UserController extends Controller
 {
+    /**
+     * Создаем пользователя
+     */
     function create()
     {
         $firstName = request()->get('firstName');
